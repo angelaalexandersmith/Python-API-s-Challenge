@@ -8,9 +8,13 @@ Weatherpy Observable Trends from analysis results:
 3. The number of cities used in this analysis are not equally distributed between the cities in northern vs southern hemisphere. The are more cities located in northern hemisphere compared to the cities located in southern hemisphere. With uneven cities distributions used in this analysis, the result is showing that this distribution doesn’t influence the obvious trend that the farther the city from the equator the colder the temperature is. It is also showing that the location and distance of the city from the equator doesn’t impact the humidity, cloudiness and wind speed.
 
 Background
+
+
 Data's true power is its ability to definitively answer questions. So, let's take what you've learned about Python requests, APIs, and JSON traversals to answer a fundamental question: "What is the weather like as we approach the equator?"
 
 Now, we know what you may be thinking: “That’s obvious. It gets hotter.” But, if pressed for more information, how would you prove that?
+
+
 Part 1: WeatherPy
 In this section, you'll create a Python script to visualise the weather of over 500 cities of varying distances from the equator. You'll use a simple Python library (Links to an external site.), the OpenWeatherMap API (Links to an external site.), and your problem-solving skills to create a representative model of weather across cities.
 
@@ -55,6 +59,8 @@ Perform a weather check on each of the cities by using a series of successive AP
 Include a print log of each city as it's being processed, with the city number and city name.
 
 Save a CSV of all retrieved data and a PNG image for each scatter plot.
+
+
 
 Part 2: VacationPy
 Now, use your weather data skills to plan future vacations. Use Jupyter gmaps and the Google Places API for this part of the assignment.
